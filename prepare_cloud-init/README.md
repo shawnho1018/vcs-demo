@@ -11,7 +11,7 @@ The idea comes from [this link](https://jimangel.io/post/create-a-vm-template-ub
 3. Using vSphere mechanism to convert VM to Template.
 4. Use this template as the basis of vCloud Assembly template.  
 
-Compared to I add an input to allow customized hostname as follows:
+Compared to earlier work (as shown in the previous link), I add an input to allow customized hostname as follows:
 ```
 sed -i 's/preserve_hostname: true/preserve_hostname: false/g' /etc/cloud/cloud.cfg
 ```
